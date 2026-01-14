@@ -1,14 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My First Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Static Website</title>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello World 👋</h1>
-  <p>This is my first hosted website.</p>
 
+  <!-- Header -->
+  <header>
+    <h1>Alpha</h1>
+    <p>Learning Web Development & Security</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#goal">Goal</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Main content -->
+  <main>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a Computer Science student learning web development, networking,
+        and cybersecurity. This is my first static website hosted online.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>What I Am Learning</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Web Architecture</li>
+        <li>Networking Basics</li>
+        <li>Web Security & Bug Bounty</li>
+      </ul>
+    </section>
+
+    <section id="goal">
+      <h2>My Goal</h2>
+      <p>
+        Build strong fundamentals, understand how websites work internally,
+        and move towards dynamic applications and ethical hacking.
+      </p>
+      <button id="goalButton">Why I Started</button>
+      <p id="goalText" class="hidden">
+        I started to understand how the web works and how security issues happen.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: example@email.com</p>
+      <p>Location: India</p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Alpha | Static Website</p>
+  </footer>
+
+  <!-- JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>
-
